@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.character {
+  margin-top: 20px;
+}
+
+.character-img {
+  width: 300px;
+}
+
+#response-buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#yuppii {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5733;
+  display: none;
+  margin-top: 20px;
+}

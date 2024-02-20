@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kahve Davetiyesi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Benimle bir kahve içmeye ne dersin?</h1>
+      <div class="character">
+        <img
+          id="character-img"
+          src="images/strong-cute-character.jpg"
+          alt="Güçlü Şirin"
+          class="character-img"
+        />
+        <img
+          id="smurfette-img"
+          src="images/smurfette.png"
+          alt="Şirine"
+          class="character-img"
+          style="display: none"
+        />
+      </div>
+      <div id="response-buttons">
+        <button onclick="accept()">Evet</button>
+        <button onclick="decline()">Hayır</button>
+      </div>
+    </div>
+    <div id="yuppii">
+      <!-- Yuppii yazısı buraya eklenecek -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
